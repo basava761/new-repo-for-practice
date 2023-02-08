@@ -72,5 +72,7 @@ Toconnect the repo:git remote add surl(alias_name) add above url
 git remote add surl git@github.com:basava761/new-repo-for-practice.git
 
 
+need to run above commands in git repo folder only
+
 
 

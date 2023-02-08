@@ -1,0 +1,50 @@
+https://github.com/basava761/git_tech.git
+
+
+git remote add link https://github.com/basava761/git_tech.git
+
+
+git remote -v : to check the git connections
+
+git status: to check the status of the files 
+git add .:to add all files to staging area
+git status:to check the file status:
+git commit -m "mandatory any message": to commit the code
+git show commitid(7 charectors/any number char): to check the committed files in the commit id
+git show --pretty="" --name-only 2ca2541f04: to display only committed files with out any additinal data
+git reset : toremoves files from stagiing area and send back to previous stage
+git reset [files-name]: to remove specific files from staging area
+git revert [commit id]: to clean up the files in respective commit id
+git clean -f : to remove files from working area
+current branch>git diff [branchname]:current branchcode ill be compared with other branch
+current branch>git diff [branchname1][branchname2]: being in current branch we can compare branch1 and branch2
+
+git checkout -b branch name: create branch and switch to created branch
+
+git branch -a: Toview all the branches from remote as well as local
+
+git branch -r:to view the branches in remote repo
+
+git push alias:branchname to remove/delete the branches from remote repo
+git branch -d branchname: to delete the branch from local repo
+git branch -D branchname: To delete the branch forefully
+
+
+=======================================================================
+tag
+wecreate it after the production
+git tag: to check the tags
+git tag tagname: to create new tags
+tag is immutable
+git push link tag tag1.1: to push tag to  to repo
+==========================================================================
+stash we used to take backup
+
+dev>git stash : to take the back up of dev branch
+git stash list: to get the list of stach
+To use stash again:
+dev> git stash apply {stash if many availsble means}
+to detlete: git slash drop
+dev>git stash save "any message": to give some name or message we use this command
+
+

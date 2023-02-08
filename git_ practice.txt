@@ -47,4 +47,30 @@ dev> git stash apply {stash if many availsble means}
 to detlete: git slash drop
 dev>git stash save "any message": to give some name or message we use this command
 
+======================================================================sshkey-gen topic====================================
+command :ssh-keygen
+it creates 2 files:
+id_rsa
+id_rsa.pub
+above files are available in ls -la~/.ssh/
+in my laptop other than Aws files stored in:
+Your identification has been saved in /c/Users/basav/.ssh/id_rsa
+Your public key has been saved in /c/Users/basav/.ssh/id_rsa.pub
+
+
+
+1.need to copy content from id_rsa.pub and paste in github setting-sshand gpg keys
+click on new ssh key add the content and creat a key than run below command in bash 
+
+ssh -T git@github.com
+
+copy sshcode  from github and add to git @github.com
+
+git @githubhub.comgit@github.com:basava761/new-repo-for-practice.git
+
+Toconnect the repo:git remote add surl(alias_name) add above url
+git remote add surl git@github.com:basava761/new-repo-for-practice.git
+
+
+
 
